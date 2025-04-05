@@ -3,8 +3,12 @@ languageCode = 'en-us'
 title = 'Thinking Bits'
 theme = 'plzr'
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 [[menu.main]]
-    identifier = 'about'
-    name = 'About'
-    url = '/about'
-    weight = 1
+identifier = 'about'
+name = 'About'
+url = '/about'
+weight = 1
