@@ -27,3 +27,6 @@ weight = 1
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+[params]
+  dateFormat = "2 January 2006"
