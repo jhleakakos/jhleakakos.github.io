@@ -17,6 +17,12 @@ name = 'Tags'
 pageRef = '/tags'
 weight = 30
 
+[[menus.main]]
+identifier = 'about'
+name = 'About'
+url = '/about'
+weight = 1
+
 [module]
   [module.hugoVersion]
     extended = false

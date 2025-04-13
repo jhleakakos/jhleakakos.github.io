@@ -6,9 +6,3 @@ theme = 'plzr'
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
-
-[[menu.main]]
-identifier = 'about'
-name = 'About'
-url = '/about'
-weight = 1
