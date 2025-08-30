@@ -1,0 +1,3 @@
+[submodule "themes/tlzr"]
+	path = themes/tlzr
+	url = https://github.com/jhleakakos/tlzr.git
