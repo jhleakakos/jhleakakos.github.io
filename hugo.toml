@@ -1,7 +1,7 @@
 baseURL = 'https://jhleakakos.github.io/'
 languageCode = 'en-us'
 title = 'Thinking Bits'
-theme = 'plzr'
+theme = 'tlzr'
 
 [caches]
 [caches.images]
