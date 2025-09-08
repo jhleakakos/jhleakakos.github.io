@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ThinkingBits bulb 01">
+    <style>
+        :root { --fg:#0B0F19; --secondary:#5B8CFF; --accent:#E0A800}
+        @media (prefers-color-scheme: dark) { :root { --fg:#EAF2FF; } }
+        .digits { font: 800 14px system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; letter-spacing: 1px; }
+    </style>
+
+    <!-- bulb outline -->
+    <path d="M32 10a14 14 0 0 0-9.9 24c2 1.8 3.9 4.2 3.9 6.5v2.5h12v-2.5c0-2.3 1.9-4.7 3.9-6.5A14 14 0 0 0 32 10Z"
+          fill="none" stroke="var(--fg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- bulb base -->
+    <rect x="25" y="43" width="14" height="6" rx="2" fill="none" stroke="var(--fg)" stroke-width="3"/>
+
+    <!-- 0 1 inside the bulb (kept large and chunky for legibility) -->
+    <g transform="translate(16,17)">
+        <text x="7"  y="18" class="digits" fill="var(--secondary)">0</text>
+        <text x="18" y="18" class="digits" fill="var(--fg)">1</text>
+    </g>
+
+    <!-- subtle circuit hint -->
+    <circle cx="24" cy="23" r="2" fill="var(--accent)"/>
+    <circle cx="40" cy="21" r="2" fill="var(--accent)"/>
+    <path d="M24 23 H30 V19 H40" fill="none" stroke="var(--accent)" stroke-width="2"/>
+</svg>

@@ -6,3 +6,37 @@ theme = 'tlzr'
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+[[menus.nav]]
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menus.nav]]
+identifier = 'about'
+name = 'About'
+url = '/about'
+weight = 2
+
+[[menus.navdropdown]]
+name = 'Posts'
+url = '/posts'
+weight = 20
+
+[[menus.navdropdown]]
+name = 'Tags'
+url = '/tags'
+weight = 30
+
+[[menus.navdropdown]]
+name = 'Paper Review'
+url = '/paper-review'
+weight = 40
+
+[module]
+[module.hugoVersion]
+extended = false
+min = "0.116.0"
+
+[params]
+dateFormat = "2 January 2006"
