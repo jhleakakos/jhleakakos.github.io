@@ -1,4 +1,4 @@
-baseURL = 'https://jhleakakos.github.io/'
+baseURL = 'https://thinkingbits.io/'
 languageCode = 'en-us'
 title = 'Thinking Bits'
 theme = 'tlzr'
@@ -40,3 +40,4 @@ min = "0.116.0"
 
 [params]
 dateFormat = "2 January 2006"
+intro = "This site is a place for me to put some assorted thoughts and self-references. A primary goal is to work through the content from my grad degree, developing my own explanations, diving deeper into subjects I am less familiar with, and starting to develop the muscle of working through academic papers."
