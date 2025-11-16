@@ -1,8 +1,7 @@
 +++
-title = 'About Me'
+title = 'Aboutz'
 date = "2025-04-01"
+layout = 'about'
 +++
 
-# Great About Me
-
-I'm a person
+Coming soon
