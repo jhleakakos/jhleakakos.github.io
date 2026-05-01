@@ -18,20 +18,20 @@ name = 'About'
 url = '/about'
 weight = 2
 
-[[menus.navdropdown]]
-name = 'Posts'
-url = '/posts'
+[[menus.nav]]
+name = 'Notes'
+url = '/notes'
 weight = 20
 
-[[menus.navdropdown]]
-name = 'Tags'
-url = '/tags'
+[[menus.nav]]
+name = 'Papers'
+url = '/papers'
 weight = 30
 
-[[menus.navdropdown]]
-name = 'Paper Review'
-url = '/paper-review'
-weight = 40
+[[menus.nav]]
+name = 'Projects'
+url = '/projects'
+weight = 30
 
 [module]
 [module.hugoVersion]

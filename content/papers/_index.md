@@ -1,5 +1,5 @@
 +++
-title = 'Paper Review'
+title = 'Papers'
 +++
 
 Paper review index md body content
