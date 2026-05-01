@@ -1,5 +1,5 @@
 +++
-title = 'Paper Review'
+title = 'Projects'
 +++
 
-Papers index md body content
+Projects index md body content
