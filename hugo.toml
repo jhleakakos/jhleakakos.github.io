@@ -1,5 +1,7 @@
 baseURL = 'https://thinkingbits.io/'
-languageCode = 'en-us'
+#languageCode = 'en-us'
+locale = 'en-us'
+direction = 'ltr'
 title = 'Thinking Bits'
 theme = 'tlzr'
 
